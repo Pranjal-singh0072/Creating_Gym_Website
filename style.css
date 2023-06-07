@@ -1,0 +1,151 @@
+ /* css.reset */
+ body{
+    margin: 0px;
+    padding: 0px;
+    color: rgb(233, 5, 20);
+    /* background-color: pink; */
+    background-image: url("bg.png.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+        }
+  
+    .left{
+       background-color: url("bg.gymlogo.jpg");
+       border: 2px solid red;
+       display: inline-block;
+       position: absolute;
+       left: 34px;
+       top: 20px;
+
+
+
+    }
+    .left img{
+       width: 30px;
+       filter:invert(100%);
+
+
+    }
+    .left div{
+       text-align:center ;
+    }
+    .mid{
+       border: 2px solid rgb(41, 210, 26);
+       display: block;
+       width: 60%;
+       margin: 20px auto;
+       margin-top: 50px;
+       margin-top: 50px;
+       border-radius: 10px;
+
+    }
+    .right{
+       /* border:  solid yellow; */
+       position: absolute;
+       right: 20px;
+       top: 5px;
+       margin-top: 10px;
+       display: inline-block;
+
+    }
+    .navbar{
+       display: inline-block;
+    }
+    .navbar li{
+       
+       display: inline-block;
+       font-size: 25px;
+       
+    }
+    .navbar li a{
+       color: white;
+       
+       text-decoration: none;
+       padding: 34px 23px;
+    }
+    .navbar li a:hover{
+       text-decoration: underline;
+       color:red;
+       
+    }
+    .btn{
+       margin: 0px 9px;
+       color: white;
+       background-color: black;
+       padding: 4px 14px;
+       border: 10px solid grey;
+       border-radius: 10px;
+       font-size: 20px;
+       cursor: pointer;
+
+    }
+    .btn:hover{
+       background-color: red;
+    }
+    .lav{
+       height: 50px;
+       width: 50px;
+       margin-left: 10px;
+       margin-top: 15px;
+       border: 2px solid red;
+       border-radius: 50%;
+    }
+    .kush{
+       margin-top: -50px;
+       margin-left: 70px;
+       border-radius: 10px;
+       border: 2px solid grey;
+       height: 20px;
+       width: 150px;
+       padding: 10px;
+       align-items: center;
+       padding-left:25px ;
+    }
+    .container{
+        /* border: 2px solid ; */
+        margin: 2px 2px;
+        padding: 2px; 
+        width: 43%;
+        height: 300px;
+        border-radius: 2px;
+        margin-left: 5px;
+        margin-top: 50px;
+
+    }
+    .raju{
+        margin-top: 10px;
+
+    }
+    input{
+        width: 400px;
+        margin-top: 20px;
+        border-radius: 5px;
+        border: 2px solid red;
+    }
+    .raj{
+        border: 2px solid yellow;
+        height: 50px;
+        padding-top: -70px;
+        width: 400px;
+
+    
+    }
+    button{
+        margin-top: 10px;
+    }
+    .po{
+        margin-top: -20px;
+        background-color: pink;
+        height: 10px;
+        width: 300px;
+        margin-left: -20px;
+        border-radius: 5px;
+    }
+    .op{
+        background-color: red;
+        height: 10px;
+        width: 400px;
+        margin-left: -20px;
+        border-radius: 5px;
+    }
